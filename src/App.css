@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: Inter;
+}
+.container{
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.grid-900{
+  display: grid;
+  grid-template-columns: 75% 1fr;
+  gap: 20px;
+}
